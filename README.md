@@ -85,3 +85,13 @@ Module 2:
       Created formatted evaluation result displays with breakdowns
       References to Reddit culture (r/memes, group chats)
       Added metadata like user confidence and expected upvotes
+
+  Lesson-03: Experiments
+    Summary:
+      The video explains how to use LangSmith to run comparative evaluations on different versions of
+      your LLM application against a single dataset. You learn how to systematically test changes (like
+      prompt tweaks or model swaps) and use the platform's features to analyze the results from various
+      evaluators, allowing you to quickly determine which version performs best.
+    Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/experiments.ipynb
+    Changes Made: 
+      
