@@ -37,3 +37,12 @@ Module 1:
       Ensured that all exceptions are caught and explained, not just shown as raw tracebacks.
       Clearly separated success and error output, making it easier to understand what happened during
       execution.
+
+  Lesson-04: Conversational Threads
+    Summary: The video explains the concept of "Threads" in LangSmith, which is essential for tracking conversational AI applications.
+
+Purpose: To group multiple, sequential agent/LLM "runs" (traces) together to represent a single, long-running conversation.
+
+Mechanism: It instructs developers on how to assign a unique identifier (such as session_id, thread_id, or conversation_id) to the metadata of each run in a conversation.
+
+Benefit: By grouping runs into threads, LangSmith provides a clear, chatbot-like UI for developers to view the complete history of a conversation. This visibility allows for easier debugging, annotation, and analysis of how an agent performs across multiple turns, ensuring it maintains context and memory.
