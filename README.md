@@ -12,21 +12,30 @@ Module 1:
       Debug Logging: Added local debug prints of question/answer for quick inspection.
 
   Lesson-02: Types of Runs
-    Summary: LangSmith tracks and visualizes different types of executions (called “runs”) in your language model applications. These help you debug,          monitor, and improve your system. Types Runs: LLM, Retriever, Tool, Prompt, Chain, Praiser.
-    Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/types_of_runs.ipynb
+    Summary: LangSmith tracks and visualizes different types of executions (called “runs”) in your
+      language model applications. These help you debug, monitor, and improve your system. Types Runs:
+      LLM,Retriever, Tool, Prompt, Chain, Praiser.
+    Source File: https://github.com/langchain-ai/intro-to-
+      langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/types_of_runs.ipynb
     Changes Made:
-      Added defensive checks in the chat model cell to ensure messages is a list of dicts with required keys.
+      Added defensive checks in the chat model cell to ensure messages is a list of dicts with required
+      keys.
       Avoided mutating the input list by creating a new list when adding the assistant's suggestion.
       Wrapped the chat model call in a try/except block to catch and print errors with clear messages.
       Improved robustness and error handling for Groq API calls in the notebook.
 
   Lesson-03: Alternative Ways to Trace
-    Summary:This video teaches alternative  methods for tracing in LangSmith beyond setting environment variables. It focuses on achieving selective observability by manually passing a LangChainTracer as a callback or using the tracing_context manager to trace specific code blocks.
-    Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/alternative_tracing_methods.ipynb
+    Summary:This video teaches alternative  methods for tracing in LangSmith beyond setting environment
+      variables. It focuses on achieving selective observability by manually passing a LangChainTracer
+      as a callback or using the tracing_context manager to trace specific code blocks.
+    Source File: https://github.com/langchain-ai/intro-to-
+      langsmith/blob/main/notebooks/module_1/alternative_tracing_methods.ipynb
     Changes Made:
-      Added a function to check for internet connectivity before making API calls, preventing unnecessary errors if offline.
-      Provided user-friendly, visually distinct messages for different error types (no internet, connection error, HTTP error, unexpected error).
+      Added a function to check for internet connectivity before making API calls, preventing
+      unnecessary errors if offline.
+      Provided user-friendly, visually distinct messages for different error types (no internet,
+      connection error, HTTP error, unexpected error).
       Used emoji icons (✅, ❌, 🚫, 🌐) to make feedback more engaging and clear.
       Ensured that all exceptions are caught and explained, not just shown as raw tracebacks.
-      Clearly separated success and error output, making it easier to understand what happened during execution.
-    
+      Clearly separated success and error output, making it easier to understand what happened during
+      execution.
