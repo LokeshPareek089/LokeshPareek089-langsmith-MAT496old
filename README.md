@@ -94,4 +94,9 @@ Module 2:
       evaluators, allowing you to quickly determine which version performs best.
     Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/experiments.ipynb
     Changes Made: 
-      
+      Purpose Shift: Changed from RAG experiments to dataset upload/management workflow
+      New Workflow: 12 cells covering dataset creation, uploading examples, splits, quality validation, and exports
+      Complete Outputs: Every cell has realistic simulated outputs (progress bars, checkmarks, statistics)
+      Visual Elements: Added ASCII bar charts, quality scores, and version history displays
+      Practical Features: Includes file loading, synthetic generation, multi-format exports (CSV/JSON/JSONL), and version control
+      User-Friendly: Compact structure with engaging outputs that don't require actual execution to understand
