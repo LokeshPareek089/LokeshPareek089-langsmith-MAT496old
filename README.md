@@ -15,8 +15,7 @@ Module 1:
     Summary: LangSmith tracks and visualizes different types of executions (called “runs”) in your
       language model applications. These help you debug, monitor, and improve your system. Types Runs:
       LLM,Retriever, Tool, Prompt, Chain, Praiser.
-    Source File: https://github.com/langchain-ai/intro-to-
-    langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/types_of_runs.ipynb
+    Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/types_of_runs.ipynb
     Changes Made:
       Added defensive checks in the chat model cell to ensure messages is a list of dicts with required
       keys.
@@ -28,8 +27,7 @@ Module 1:
     Summary:This video teaches alternative  methods for tracing in LangSmith beyond setting environment
       variables. It focuses on achieving selective observability by manually passing a LangChainTracer
       as a callback or using the tracing_context manager to trace specific code blocks.
-    Source File: https://github.com/langchain-ai/intro-to-
-      langsmith/blob/main/notebooks/module_1/alternative_tracing_methods.ipynb
+    Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_1/alternative_tracing_methods.ipynb
     Changes Made:
       Added a function to check for internet connectivity before making API calls, preventing
       unnecessary errors if offline.
