@@ -49,6 +49,7 @@ Module 1:
       developers to view the complete history of a conversation. This visibility allows for easier
       debugging, annotation, and analysis of how an agent performs across multiple turns, ensuring it
       maintains context and memory.
+    Souce File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/conversational_threads.ipynb
     Changes Made:
       Random Emoji in System Prompt:
         Each system prompt now includes a randomly selected emoji for a more engaging and playful
