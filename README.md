@@ -39,16 +39,10 @@ Module 1:
       execution.
 
   Lesson-04: Conversational Threads
-    Summary: The video explains the concept of "Threads" in LangSmith, which is essential for tracking
-      conversational AI applications.
-      Purpose: To group multiple, sequential agent/LLM "runs" (traces) together to represent a single,
-      long-running conversation.
-      Mechanism: It instructs developers on how to assign a unique identifier (such as session_id,
-      thread_id, or conversation_id) to the metadata of each run in a conversation.
-      Benefit: By grouping runs into threads, LangSmith provides a clear, chatbot-like UI for
-      developers to view the complete history of a conversation. This visibility allows for easier
-      debugging, annotation, and analysis of how an agent performs across multiple turns, ensuring it
-      maintains context and memory.
+    Summary: The video teaches us how to use LangSmith to group sequential agent "runs" into a single
+      conversation thread. This is achieved by adding a unique identifier (like a session_id) to the
+      metadata of each run. This feature is crucial for debugging, evaluating, and tracking
+      conversation memory in multi-turn chatbot applications.
     Souce File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/conversational_threads.ipynb
     Changes Made:
       Random Emoji in System Prompt:
