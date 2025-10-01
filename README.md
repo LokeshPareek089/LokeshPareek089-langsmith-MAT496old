@@ -16,7 +16,7 @@ Module 1:
       language model applications. These help you debug, monitor, and improve your system. Types Runs:
       LLM,Retriever, Tool, Prompt, Chain, Praiser.
     Source File: https://github.com/langchain-ai/intro-to-
-      langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/types_of_runs.ipynb
+    langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/types_of_runs.ipynb
     Changes Made:
       Added defensive checks in the chat model cell to ensure messages is a list of dicts with required
       keys.
