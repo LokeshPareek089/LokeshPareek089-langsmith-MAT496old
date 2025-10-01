@@ -60,14 +60,28 @@ Module 1:
 
 Module 2:
   Lesson-01: Dataset Upload
-    Summary: The video on "Lesson 1: Datasets" explains how to use LangSmith to create and manage
-      datasets, which are essential for testing and evaluating LLM applications. It covers methods for
-      constructing these datasets by either manually curating examples or automatically capturing high
-      value traces from your production application runs. These structured datasets allow for repeatable,
-      consistent performance testing.
+    Summary: 
+      We learn how to use LangSmith to create and manage datasets, which are essential for testing and
+      evaluating LLM applications. It covers methods for constructing these datasets by either manually
+      curating examples or automatically capturing high value traces from your production application
+      runs. These structured datasets allow for repeatable, consistent performance testing.
     Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/dataset_upload.ipynb
     Changes Made:
       Added dramatic flair to markdown descriptions
       Created a colorful HTML dashboard showing "Pretentiousness Metrics"
       Added progress messages and status indicators throughout
       Added mock function response with metrics (trace_id, response_time, scores)
+
+  Lesson-02: Evaluators
+    Summary: 
+      We learn the concept of Evaluators in LangSmith as the functions used to score and measure the
+      performance of your LLM application outputs. It explains how to define and run different types
+      of evaluators—including LLM-as-a-judge and custom code functions—against your datasets to
+      quantitatively assess metrics like correctness, relevance, and adherence to specific criteria.
+    Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/evaluators.ipynb
+    Changes Made: 
+      Changed from semantic similarity evaluation to "Meme Quality Evaluation"
+      Added extensive emoji usage throughout (🎭, 🔥, 😂, 💀)
+      Created formatted evaluation result displays with breakdowns
+      References to Reddit culture (r/memes, group chats)
+      Added metadata like user confidence and expected upvotes
