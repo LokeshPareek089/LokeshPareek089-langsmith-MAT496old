@@ -39,10 +39,26 @@ Module 1:
       execution.
 
   Lesson-04: Conversational Threads
-    Summary: The video explains the concept of "Threads" in LangSmith, which is essential for tracking conversational AI applications.
-
-Purpose: To group multiple, sequential agent/LLM "runs" (traces) together to represent a single, long-running conversation.
-
-Mechanism: It instructs developers on how to assign a unique identifier (such as session_id, thread_id, or conversation_id) to the metadata of each run in a conversation.
-
-Benefit: By grouping runs into threads, LangSmith provides a clear, chatbot-like UI for developers to view the complete history of a conversation. This visibility allows for easier debugging, annotation, and analysis of how an agent performs across multiple turns, ensuring it maintains context and memory.
+    Summary: The video explains the concept of "Threads" in LangSmith, which is essential for tracking
+      conversational AI applications.
+      Purpose: To group multiple, sequential agent/LLM "runs" (traces) together to represent a single,
+      long-running conversation.
+      Mechanism: It instructs developers on how to assign a unique identifier (such as session_id,
+      thread_id, or conversation_id) to the metadata of each run in a conversation.
+      Benefit: By grouping runs into threads, LangSmith provides a clear, chatbot-like UI for
+      developers to view the complete history of a conversation. This visibility allows for easier
+      debugging, annotation, and analysis of how an agent performs across multiple turns, ensuring it
+      maintains context and memory.
+    Changes Made:
+      Random Emoji in System Prompt:
+        Each system prompt now includes a randomly selected emoji for a more engaging and playful
+        assistant experience.
+      Creative and Informative Print Statements:
+      Added print statements throughout the retrieval and generation process to provide clear, fun, and
+        informative feedback about what the code is doing.
+      Creative Question Prompts:
+        The questions in the last two code cells were updated to be more imaginative and open-ended,
+        encouraging creative responses.
+      Emojis in Output Display:
+        The answers are printed with relevant emojis (e.g., 📈, 🎨) to make the output visually
+        appealing and thematic.
