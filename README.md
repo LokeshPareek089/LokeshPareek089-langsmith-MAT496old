@@ -21,7 +21,7 @@ Module 1:
       Improved robustness and error handling for Groq API calls in the notebook.
 
   Lesson-03: Alternative Ways to Trace
-    Summary:
+    Summary:This video teaches alternative  methods for tracing in LangSmith beyond setting environment variables. It focuses on achieving selective observability by manually passing a LangChainTracer as a callback or using the tracing_context manager to trace specific code blocks.
     Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/alternative_tracing_methods.ipynb
     Changes Made:
       Added a function to check for internet connectivity before making API calls, preventing unnecessary errors if offline.
