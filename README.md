@@ -24,11 +24,11 @@
       Improved robustness and error handling for Groq API calls in the notebook.
 
   * Lesson-03: Alternative Ways to Trace
-    Summary:This video teaches alternative  methods for tracing in LangSmith beyond setting environment
+    * Summary:This video teaches alternative  methods for tracing in LangSmith beyond setting environment
       variables. It focuses on achieving selective observability by manually passing a LangChainTracer
       as a callback or using the tracing_context manager to trace specific code blocks.
-    Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_1/alternative_tracing_methods.ipynb
-    Changes Made:
+    * Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_1/alternative_tracing_methods.ipynb
+    * Changes Made:
       Added a function to check for internet connectivity before making API calls, preventing
       unnecessary errors if offline.
       Provided user-friendly, visually distinct messages for different error types (no internet,
@@ -39,12 +39,12 @@
       execution.
 
   * Lesson-04: Conversational Threads
-    Summary: The video teaches us how to use LangSmith to group sequential agent "runs" into a single
+    * Summary: The video teaches us how to use LangSmith to group sequential agent "runs" into a single
       conversation thread. This is achieved by adding a unique identifier (like a session_id) to the
       metadata of each run. This feature is crucial for debugging, evaluating, and tracking
       conversation memory in multi-turn chatbot applications.
-    Souce File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/conversational_threads.ipynb
-    Changes Made:
+    * Souce File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/conversational_threads.ipynb
+    * Changes Made:
       Random Emoji in System Prompt:
         Each system prompt now includes a randomly selected emoji for a more engaging and playful
         assistant experience.
@@ -60,26 +60,26 @@
 
 ## Module 2:
  * Lesson-01: Dataset Upload
-    Summary: 
+    * Summary: 
       We learn how to use LangSmith to create and manage datasets, which are essential for testing and
       evaluating LLM applications. It covers methods for constructing these datasets by either manually
       curating examples or automatically capturing high value traces from your production application
       runs. These structured datasets allow for repeatable, consistent performance testing.
-    Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/dataset_upload.ipynb
-    Changes Made:
+    * Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/dataset_upload.ipynb
+    * Changes Made:
       Added dramatic flair to markdown descriptions
       Created a colorful HTML dashboard showing "Pretentiousness Metrics"
       Added progress messages and status indicators throughout
       Added mock function response with metrics (trace_id, response_time, scores)
 
  * Lesson-02: Evaluators
-    Summary: 
+    * Summary: 
       We learn the concept of Evaluators in LangSmith as the functions used to score and measure the
       performance of your LLM application outputs. It explains how to define and run different types
       of evaluators—including LLM-as-a-judge and custom code functions—against your datasets to
       quantitatively assess metrics like correctness, relevance, and adherence to specific criteria.
     Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/evaluators.ipynb
-    Changes Made: 
+    * Changes Made: 
       Changed from semantic similarity evaluation to "Meme Quality Evaluation"
       Added extensive emoji usage throughout (🎭, 🔥, 😂, 💀)
       Created formatted evaluation result displays with breakdowns
@@ -87,13 +87,13 @@
       Added metadata like user confidence and expected upvotes
 
  * Lesson-03: Experiments
-    Summary:
+    * Summary:
       The video explains how to use LangSmith to run comparative evaluations on different versions of
       your LLM application against a single dataset. You learn how to systematically test changes (like
       prompt tweaks or model swaps) and use the platform's features to analyze the results from various
       evaluators, allowing you to quickly determine which version performs best.
-    Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/experiments.ipynb
-    Changes Made: 
+    * Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_2/experiments.ipynb
+    * Changes Made: 
       Purpose Shift: Changed from RAG experiments to dataset upload/management workflow
       New Workflow: 12 cells covering dataset creation, uploading examples, splits, quality validation, and exports
       Complete Outputs: Every cell has realistic simulated outputs (progress bars, checkmarks, statistics)
