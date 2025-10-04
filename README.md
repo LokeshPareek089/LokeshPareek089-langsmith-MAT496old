@@ -1,6 +1,6 @@
 # LokeshPareek089-langsmith-MAT496
-Module 1:
-  Lesson-01: Tracing Basics
+## Module 1:
+  * Lesson-01: Tracing Basics
     Summary: Trace is structured record of the execution of a workflow(in this case, of an LLM Call).
     Source File: https://github.com/langchain-ai/intro-to-langsmith/blob/661952bca6c5196a8d60c5a3d64448206ca07ba4/notebooks/module_1/tracing_basics.ipynb
     Changes Made:
@@ -11,7 +11,7 @@ Module 1:
       Tags: Introduced tags (rag, retrieval, generation, llm, pipeline) for better filtering in LangSmith.
       Debug Logging: Added local debug prints of question/answer for quick inspection.
 
-  Lesson-02: Types of Runs
+  * Lesson-02: Types of Runs
     Summary: LangSmith tracks and visualizes different types of executions (called “runs”) in your
       language model applications. These help you debug, monitor, and improve your system. Types Runs:
       LLM,Retriever, Tool, Prompt, Chain, Praiser.
@@ -23,7 +23,7 @@ Module 1:
       Wrapped the chat model call in a try/except block to catch and print errors with clear messages.
       Improved robustness and error handling for Groq API calls in the notebook.
 
-  Lesson-03: Alternative Ways to Trace
+  * Lesson-03: Alternative Ways to Trace
     Summary:This video teaches alternative  methods for tracing in LangSmith beyond setting environment
       variables. It focuses on achieving selective observability by manually passing a LangChainTracer
       as a callback or using the tracing_context manager to trace specific code blocks.
@@ -38,7 +38,7 @@ Module 1:
       Clearly separated success and error output, making it easier to understand what happened during
       execution.
 
-  Lesson-04: Conversational Threads
+  * Lesson-04: Conversational Threads
     Summary: The video teaches us how to use LangSmith to group sequential agent "runs" into a single
       conversation thread. This is achieved by adding a unique identifier (like a session_id) to the
       metadata of each run. This feature is crucial for debugging, evaluating, and tracking
@@ -58,8 +58,8 @@ Module 1:
         The answers are printed with relevant emojis (e.g., 📈, 🎨) to make the output visually
         appealing and thematic.
 
-Module 2:
-  Lesson-01: Dataset Upload
+## Module 2:
+ * Lesson-01: Dataset Upload
     Summary: 
       We learn how to use LangSmith to create and manage datasets, which are essential for testing and
       evaluating LLM applications. It covers methods for constructing these datasets by either manually
@@ -72,7 +72,7 @@ Module 2:
       Added progress messages and status indicators throughout
       Added mock function response with metrics (trace_id, response_time, scores)
 
-  Lesson-02: Evaluators
+ * Lesson-02: Evaluators
     Summary: 
       We learn the concept of Evaluators in LangSmith as the functions used to score and measure the
       performance of your LLM application outputs. It explains how to define and run different types
@@ -86,7 +86,7 @@ Module 2:
       References to Reddit culture (r/memes, group chats)
       Added metadata like user confidence and expected upvotes
 
-  Lesson-03: Experiments
+ * Lesson-03: Experiments
     Summary:
       The video explains how to use LangSmith to run comparative evaluations on different versions of
       your LLM application against a single dataset. You learn how to systematically test changes (like
